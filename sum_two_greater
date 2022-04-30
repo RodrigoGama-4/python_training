@@ -1,0 +1,11 @@
+l = [8, 10, -2, -6, 15, 20, 4, 1]
+
+
+def somaMaiores(all_numbers):
+    all_numbers.sort(reverse=True)
+
+    soma = all_numbers[0] + all_numbers[1]
+    print(soma)
+
+
+somaMaiores(l)
